@@ -1,0 +1,617 @@
+{
+  "ChangeDeviceName_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CHANGE_DEVICE_NAME"
+      }
+    ],
+    "Fields":[
+      {
+        "id": 1,
+        "label": "NAME",
+        "paramId": "name",
+        "value": "",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      }
+    ]
+  },
+  "MessageAllert_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "MESSAGE_ALLERT_ACTION_TITLE"
+      }
+    ],
+    "Fields": [
+      {
+        "id": 1,
+        "os": "android",
+        "label": "TYPE",
+        "paramId": "type",
+        "value": "FULL_SCREAN",
+        "input_type": "multiselect",
+        "description": "",
+        "options": [
+          "FULL_SCREAN",
+          "URL_FULL_SCREAN",
+          "WINDOW",
+          "TOAST",
+          "NOTIFICATION"
+        ]
+      },
+      {
+        "id": 2,
+        "os": "windows",
+        "label": "TYPE",
+        "paramId": "type",
+        "value": "FULL_SCREAN",
+        "input_type": "multiselect",
+        "description": "",
+        "options": [
+          "FULL_SCREAN",
+          "TOAST"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "TITLE",
+        "value": "",
+        "paramId": "title",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 4,
+        "label": "MESSAGE",
+        "value": "",
+        "paramId": "message",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 5,
+        "label": "IMAGE",
+        "value": "",
+        "paramId": "image",
+        "input_type": "file",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 6,
+        "label": "DONT_SHOW_NOTIFICATION_AFTER_DATE_TIME",
+        "value": "",
+        "paramId": "showBeforeDateTime",
+        "input_type": "datetime",
+        "description": "",
+        "options": []
+      }
+    ]
+  },
+  "InstallApk_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "INSTALL_APK_ACTION_TITLE"
+      }
+    ],
+    "Fields":[
+      {
+        "id": 1,
+        "label": "URL",
+        "value": "",
+        "paramId": "url",
+        "input_type": "url",
+        "description": "",
+        "options": []
+      }
+    ]
+  },
+  "CleanStatisticsData_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CLEAN_STATISTICS_DATA_ACTION_TITLE"
+      }
+    ]
+  },
+  "RefreshEnroll_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "REFRESH_ENROLL_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "REFRESH_ENROLL_ACTION_TEXT"
+      }
+    ]
+  },
+  "DisableBluetooth_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "DISABLE_BLUETOOTH_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "DISABLE_BLUETOOTH_ACTION_TEXT"
+      }
+    ]
+  },
+  "LockDevice_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "LOCK_DEVICE_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "LOCK_DEVICE_ACTION_TEXT"
+      }
+    ]
+  },
+  "ResetPassCode_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "RESET_PASS_CODE_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "RESET_PASS_CODE_ACTION_TEXT"
+      }
+    ]
+  },
+  "Unenroll_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "UNENROLL_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "UNENROLL_ACTION_TEXT"
+      }
+    ]
+  },
+  "UnenrollAndDelete_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "UNENROLL_AND_DELETE_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "UNENROLL_AND_DELETE_ACTION_TEXT"
+      }
+    ]
+  },
+  "UpdateInfosAction_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "UPDATE_INFOS_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "UPDATE_INFOS_ACTION_TEXT"
+      }
+    ]
+  },
+  "Wipe_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "WIPE_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "WIPE_ACTION_TEXT"
+      }
+    ]
+  },
+  "ShoutDownDevice_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "SHUT_DOWN_DEVICE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "SHUT_DOWN_DEVICE_TEXT"
+      }
+    ]
+  },
+  "RestartDevice_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "RESTART_DEVICE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "RESTART_DEVICE_TEXT"
+      }
+    ]
+  },
+  "ForceUpdateOS_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "FORCE_UPDATE_OS_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "RFORCE_UPDATE_OS_TEXT"
+      }
+    ]
+  },
+  "EnableEmergencyMode_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "ENABLE_EMERGENCY_MODE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "ENABLE_EMERGENCY_MODE_TEXT"
+      }
+    ]
+  },
+  "ClearLocalRestrictions_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CLEAR_LOCAL_RESTRICTIONS_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "CLEAR_LOCAL_RESTRICTIONS_TEXT"
+      }
+    ]
+  },
+  "AssignOwner_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "ASSIGN_OWNER_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "ASSIGN_OWNER_TEXT"
+      }
+    ]
+  },
+  "CustomAction_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CUSTOM_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "CUSTOM_ACTION_TEXT"
+      }
+    ]
+  },
+  "InstallExe_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "INSTALL_EXE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "INSTALL_EXE_TEXT"
+      }
+    ],
+    "Fields":[
+      {
+        "id": 1,
+        "label": "URL",
+        "value": "",
+        "paramId": "url",
+        "input_type": "url",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 2,
+        "label": "HASH",
+        "value": "",
+        "paramId": "hash",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 3,
+        "label": "COMMAND_LINE_PARAMETERS",
+        "value": "",
+        "paramId": "paramsCommandLine",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      }
+    ]
+  },
+  "InstallMsApp_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "INSTALL_MS_APP_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "INSTALL_MS_APP_TEXT"
+      }
+    ]
+  },
+  "InstallMsiApp_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "INSTALL_MSI_APP_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "INSTALL_MSI_APP_TEXT"
+      }
+    ],
+    "Fields":[
+      {
+        "id": 1,
+        "label": "URL",
+        "value": "",
+        "paramId": "url",
+        "input_type": "url",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 2,
+        "label": "MSI_PRODUCT_ID",
+        "value": "",
+        "paramId": "msiProductId",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 3,
+        "label": "PRODUCT_VERSION",
+        "value": "",
+        "paramId": "productVersion",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      },
+      {
+        "id": 4,
+        "label": "HASH",
+        "value": "",
+        "paramId": "hash",
+        "input_type": "text",
+        "description": "",
+        "options": []
+      }
+    ]
+  },
+  "RemoveExe_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CUSTOM_ACTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "CUSTOM_ACTION_TEXT"
+      }
+    ]
+  },
+  "RemoveFileWindows_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "REMOVE_FILE_WINDOWS_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "REMOVE_FILE_WINDOWS_TEXT"
+      }
+    ]
+  },
+  "RemoveMsApp_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "REMOVE_MS_APP_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "REMOVE_MS_APP_TEXT"
+      }
+    ]
+  },
+  "RemoveMsiApp_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "REMOVE_MSI_APP_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "REMOVE_MSI_APP_TEXT"
+      }
+    ]
+  },
+  "SetTimezoneDate_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "SET_TIMEZONE_DATE_TITLE"
+      }
+    ],
+    "Fields":[
+      {
+        "id": 1,
+        "label": "TIMEZONE",
+        "value": "Seleziona...",
+        "paramId": "timezone",
+        "input_type": "multiselect",
+        "description": "",
+        "options": ["Seleziona...", "Africa/Abidjan (+00:00)", "Africa/Accra (+00:00)"]
+      }
+    ]
+  },
+  "SetToEnrolled_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "SET_TO_ENROLLED_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "SET_TO_ENROLLED_TEXT"
+      }
+    ]
+  },
+  "SetToSupervised_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "SET_TO_SUPERVISED_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "SET_TO_SUPERVISED_TEXT"
+      }
+    ]
+  },
+  "UploadFileWindows_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "UPLOAD_FILE_WINDOWS_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "UPLOAD_FILE_WINDOWS_TEXT"
+      }
+    ]
+  },
+  "EnableFactoryResetProtection_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "ENABLE_FACTORY_RESET_PROTECTION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "ENABLE_FACTORY_RESET_PROTECTION_TEXT"
+      }
+    ]
+  },
+  "ClearApps_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "CLEAR_APPS_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "CLEAR_APPS_TEXT"
+      }
+    ]
+  },
+  "EnableBluetooth_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "ENABLE_BLUETOOTH_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "ENABLE_BLUETOOTH_TEXT"
+      }
+    ]
+  },
+  "FetchLocation_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "FETCH_LOCATION_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "FETCH_LOCATION_TEXT"
+      }
+    ]
+  },
+  "InstallCertificate_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "INSTALL_CERTIFICATE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "INSTALL_CERTIFICATE_TEXT"
+      }
+    ]
+  },
+  "LogOutUser_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "LOG_OUT_USER_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "LOG_OUT_USER_TEXT"
+      }
+    ]
+  },
+  "PlayLostModeSound_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "PLAY_LOST_MODE_SOUND_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "PLAY_LOST_MODE_SOUND_TEXT"
+      }
+    ]
+  },
+  "RemoveCertificate_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "REMOVE_CERTIFICATE_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "REMOVE_CERTIFICATE_TEXT"
+      }
+    ]
+  },
+  "ShellCommand_ID": {
+    "Labels": [
+      {
+        "key": "title",
+        "value": "SHELL_COMMAND_TITLE"
+      },
+      {
+        "key": "text",
+        "value": "SHELL_COMMAND_TEXT"
+      }
+    ]
+  }
+}
