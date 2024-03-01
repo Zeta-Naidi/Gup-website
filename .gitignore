@@ -1,51 +1,36 @@
-# Laravel specific
-/node_modules
-/public/storage
-/storage/*.key
-/vendor
-Homestead.json
-Homestead.yaml
+# Node.js
+node_modules/
 
-# Laravel Mix
-/public/css/
-/public/js/
+# Build files
+/dist/
+/.nuxt/
+/.sass-cache/
 
-# PHPUnit
-/phpunit.xml
+# Logs
+npm-debug.log*
 
-# Environment files
-/.env
-
-# PhpStorm
-.idea
-
-# Sublime Text
-.sublime-project
-.sublime-workspace
+# Dependency directories
+/jspm_packages/
+/bower_components/
 
 # VS Code
 .vscode/
 
-# Logs and databases
-/storage/*.log
-/database/*.sqlite
-/database/*.sqlite3
-/database/*.db
-
-# OS generated files
+# macOS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+
+# Windows
 Thumbs.db
 
-# User-specific files
-Homestead.yaml
-Homestead.json
-*.sublime-project
-*.sublime-workspace
-*.idea/workspace.xml
-*.idea/tasks.xml
-*.idea/dictionaries
+# Webpack
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
